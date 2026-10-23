@@ -2,6 +2,7 @@
 <html lang="ru">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
 <title>Пауза</title>
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
@@ -87,6 +88,7 @@ var m=parseInt(G('mins'));if(m===60||m===90||m===120)mins=m;if(G('muted')==='0')
 $('time').textContent=mins+':00';
 var saved=parseInt(G('endAt'));if(saved&&saved>Date.now()){endAt=saved;runTimer()}else if(saved){S('endAt','');$('sub1').textContent=T[lang].done;$('toBreath').classList.remove('hidden')}
 render();
+try{fetch('data.json?v='+Date.now()).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(d){['ru','en'].forEach(function(l){if(d[l])for(var k in d[l])T[l][k]=d[l][k]});render()}).catch(function(){})}catch(e){}
 </script>
 </body>
 </html>
