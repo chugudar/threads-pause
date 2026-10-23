@@ -1,0 +1,38 @@
+{
+ "ru": {
+  "title": "Пауза",
+  "t1": "Таймер",
+  "t2": "Дыхание",
+  "go": "Начать",
+  "stop": "Остановить",
+  "sub1": "Поставьте таймер и работайте. Когда он закончится, сделайте паузу.",
+  "done": "Пора сделать паузу на 2 минуты.",
+  "toBreath": "Дыхание 3 на 6",
+  "bgo": "Начать",
+  "bstop": "Остановить",
+  "sub2": "Вдох на 3, выдох на 6. 2 минуты.",
+  "inh": "Вдох",
+  "exh": "Выдох",
+  "bdone": "Готово. Вернитесь к делам, когда захотите.",
+  "min": "мин",
+  "foot": "Практика, не лечение. При недомогании к врачу."
+ },
+ "en": {
+  "title": "Pause",
+  "t1": "Timer",
+  "t2": "Breathing",
+  "go": "Start",
+  "stop": "Stop",
+  "sub1": "Set the timer and work. When it ends, take a pause.",
+  "done": "Time for a 2-minute pause.",
+  "toBreath": "Breathing 3 to 6",
+  "bgo": "Start",
+  "bstop": "Stop",
+  "sub2": "Inhale for 3, exhale for 6. 2 minutes.",
+  "inh": "Inhale",
+  "exh": "Exhale",
+  "bdone": "Done. Go back whenever you like.",
+  "min": "min",
+  "foot": "A practice, not a treatment. See a doctor if unwell."
+ }
+}
